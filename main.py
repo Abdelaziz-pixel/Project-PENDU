@@ -20,7 +20,7 @@ while essais < 6:
     """condition to check the entry of the user"""
 
     if len(lettre_joueur) > 1 or not lettre_joueur.isalpha():
-        print("Entrez seulement une lettre et non pas des chiffres ou des caratéres !")
+        print("Entrez seulement une lettre et non pas des chiffres ou des caractéres !")
 
     """if the entry of the user is identical to the first one at the level of the letters chosen"""
 
