@@ -27,7 +27,7 @@ while essais < 6:
     while lettre_joueur in lettres_trouvees : 
         lettre_joueur = input("Entrer a nouveau une lettre, vous avez déjà choisit cette lettre : ").lower()
         if len(lettre_joueur) > 1 or not lettre_joueur.isalpha():
-            print("Entrez seulement une lettre et non pas des chiffres ou des caratéres !")
+            print("Entrez seulement une lettre et non pas des chiffres ou des caractéres !")
 
     lettres_trouvees.append(lettre_joueur)
     position_actuelle = lettre_dans_mot(lettre_joueur, mot_a_trouver)
